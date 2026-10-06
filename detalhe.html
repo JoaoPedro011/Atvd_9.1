@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parque Centenário — Guia de Locais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="pagina-detalhe">
+  <header class="cabecalho">
+    <div class="identidade">
+      <p class="logo">Guia de Locais</p>
+      <p class="titulo">Mogi das Cruzes</p>
+    </div>
+
+    <nav aria-label="Menu principal">
+      <ul class="menu-lista">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html#locais" aria-current="page" class="ativo">Locais</a></li>
+        <li><a href="index.html#agenda">Eventos</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container detalhe-container">
+      <nav class="subnavegacao" aria-label="Navegação da página do local">
+        <a href="index.html#locais">← Voltar para locais</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#informacoes">Informações</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato-local">Contato</a>
+      </nav>
+
+      <header class="detalhe-cabecalho">
+        <h1>Parque Centenário</h1>
+        <p>Área verde, pista de caminhada e eventos gratuitos.</p>
+      </header>
+
+      <section class="bloco-detalhe" id="sobre" aria-labelledby="titulo-sobre">
+        <h2 id="titulo-sobre">Sobre o local</h2>
+        <p>O Parque Centenário é apresentado no guia como um espaço de lazer com área verde, pista de caminhada e programação cultural.</p>
+      </section>
+
+      <section class="bloco-detalhe" id="informacoes" aria-labelledby="titulo-informacoes">
+        <h2 id="titulo-informacoes">Informações</h2>
+        <div class="tabela-wrapper">
+          <table>
+            <caption>Informações disponíveis no projeto</caption>
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Detalhe</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Funcionamento</th>
+                <td>Todos os dias</td>
+              </tr>
+              <tr>
+                <th scope="row">Entrada</th>
+                <td>Gratuita</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="bloco-detalhe" id="eventos" aria-labelledby="titulo-eventos">
+        <h2 id="titulo-eventos">Próximos eventos</h2>
+        <ul class="lista-detalhe">
+          <li><strong>Orquestra no parque</strong> — 03 out.</li>
+        </ul>
+        <p class="observacao">O evento é o mesmo que aparece na agenda da página inicial.</p>
+      </section>
+
+      <section class="bloco-detalhe" id="contato-local" aria-labelledby="titulo-contato-local">
+        <h2 id="titulo-contato-local">Contato e localização</h2>
+        <p>O projeto original enviado não possui endereço ou coordenadas do Parque Centenário. Por isso, nenhum endereço foi inventado e o link do Google Maps não foi criado nesta etapa.</p>
+        <a class="link-volta" href="index.html#locais">← Voltar para a lista de locais</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>Guia de Locais e Eventos — Mogi das Cruzes</p>
+    </div>
+  </footer>
+</body>
+</html>
