@@ -46,14 +46,15 @@ svg {
   margin-inline: auto;
 }
 
+/* depois */
 .cabecalho {
   grid-area: topo;
   min-width: 0;
   display: flex;
-  align-items: flex-start;
+  align-items: center;       /* centraliza sempre, não só a partir de 760px */
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 0.75rem 1rem;
+  gap: 0.75rem 1.75rem;      /* mais respiro entre identidade e menu */
   padding: 0.9rem 1rem;
   color: #fff;
   background: var(--azul);
@@ -61,6 +62,9 @@ svg {
 
 .identidade {
   min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;                /* logo e subtítulo lado a lado, como um bloco só */
 }
 
 .logo {
@@ -373,7 +377,6 @@ tbody th {
   }
 
   .cabecalho {
-    align-items: center;
     padding-inline: 1.5rem;
   }
 
